@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Header />
-      <div className="container 2xl mx-auto py-5">
+      <div className="container 2xl mx-auto p-8 min-w-[700px]">
         <Filter />
         <FlightCardContainer />
       </div>
