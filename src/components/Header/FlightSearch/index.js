@@ -11,7 +11,7 @@ import React from "react";
 function FlightSearch() {
   return (
     <div className="shadow-md bg-white">
-      <div className="container 2xl mx-auto flex items-end justify-between px-1 py-6">
+      <div className="container min-w-[700px] 2xl mx-auto flex items-end justify-between gap-2 2xl:p-8 xl:p-8 lg:p-8 md:p-8 p-8">
         <div className="min-w-[275px]">
           <InputLabel htmlFor="from">From</InputLabel>
           <TextField
