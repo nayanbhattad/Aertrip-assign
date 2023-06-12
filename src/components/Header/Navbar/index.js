@@ -4,7 +4,7 @@ import aertripLogo from '../../../assests/images/aertrip-logo.svg'
 
 function Navbar() {
   return (
-    <div className='navbar flex items-center justify-between px-10 bg-gradient-to-r from-[#00A4AA] to-[#00C99A] '>
+    <div className='navbar py-1 flex items-center justify-between px-10 bg-gradient-to-r from-[#00A4AA] to-[#00C99A] '>
         <div className='logo w-1/4'>
             <img alt='company logo' src={aertripLogo} height={60} />
         </div>
