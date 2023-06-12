@@ -12,7 +12,7 @@ function FlightSearch() {
   return (
     <div className="shadow-md bg-white">
       <div className="container min-w-[700px] 2xl mx-auto flex items-end justify-between gap-2 2xl:p-8 xl:p-8 lg:p-8 md:p-8 p-8">
-        <div className="min-w-[275px]">
+        <div className="">
           <InputLabel htmlFor="from">From</InputLabel>
           <TextField
             fullWidth
@@ -31,7 +31,7 @@ function FlightSearch() {
             <SyncAltIcon />
           </IconButton>
         </div>
-        <div className="min-w-[275px]">
+        <div className="">
           <InputLabel htmlFor="to">To</InputLabel>
           <TextField
             fullWidth
@@ -45,7 +45,7 @@ function FlightSearch() {
             }}
           />
         </div>
-        <div className="min-w-[275px]">
+        <div className="">
           <InputLabel htmlFor="date">Depart</InputLabel>
           <TextField
             fullWidth
