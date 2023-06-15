@@ -9,6 +9,7 @@ import CheckIcon from '@mui/icons-material/Check';
 import FilterChips from "../../../components/FilterChip";
 import {fillFlights, fillPricefilter, filterFlights, sortFlights } from "../FlightCard/Config/FlightsSlice";
 import RangeSlider from "../../../components/Slider";
+import filterIcon from '../../../assests/images/filter-icon.svg
 
 function Filter() {
   const [sortASc, setSortAsc] = useState(false);
@@ -100,7 +101,7 @@ function Filter() {
 
   return (
     <div className="flex items-center gap-2 mb-8">
-      <img alt="filter-icon" src="https://d2mccptxtk231d.cloudfront.net/v2_d_app/119/dist/ec801393969dd5727e11.svg"/>
+      <img alt="filter-icon" src={filterIcon} />
       <FilterChips label={`Sort ${click !==null ? `: ${sortArr[click].label}` : ''}`} active={active} handleFilterClick={hanldeSortFilterClick} handleClear={clearSort}>
         <div className=" min-w-[350px]">
           <div className="px-4 py-2 flex items-center justify-between">
