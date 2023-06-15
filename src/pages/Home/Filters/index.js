@@ -9,7 +9,7 @@ import CheckIcon from '@mui/icons-material/Check';
 import FilterChips from "../../../components/FilterChip";
 import {fillFlights, fillPricefilter, filterFlights, sortFlights } from "../FlightCard/Config/FlightsSlice";
 import RangeSlider from "../../../components/Slider";
-import filterIcon from '../../../assests/images/filter-icon.svg
+import filterIcon from '../../../assests/images/filter-icon.svg'
 
 function Filter() {
   const [sortASc, setSortAsc] = useState(false);
